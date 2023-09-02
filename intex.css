@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    shape-outside: margin-box 2px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+    margin-top: 0;
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+}
+.logo-group{
+    height: 24px;
+    width: 74px;
+    display: inline-block;
+    position: relative;
+}
+.nav a{
+    text-decoration: none;
+    font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin-left: 50px;
+    color: #5f6368;
+    border-top-right-radius: 30px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-style: 500px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    margin-top: 20px;  
+
+}
+.logo{
+    margin-left: 25px;
+    margin-top: 5px;
+    height: 30px;
+}
+.logo-group h3{
+    margin: 0;
+    color: #5f6368;
+    text-decoration: none;
+    
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    display: inline;
+    margin-left: 6px;
+    padding: 4px 0;
+    text-rendering: optimizeLegibility;
+   
+    font-family: "Product Sans",Arial,Helvetica,sans-serif;
+    
+    }
+
+.nav{
+    margin-top: 4px;
+    margin-left: 55px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    display: block;
+}
+
+
+
+.image1{
+    width:100%;
+    margin-top: 69px;
+}
+.herotitle{
+    font: 400 120px/120px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin: 30px 18px 35px;
+    text-align: center;
+}
+.main h1{
+    text-align: center;
+    font: 400 120px/120px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin: 30px 18px 35px;
+    text-align: center;
+    margin-top: -520px;
+    color: #202124;
+    letter-spacing: 1px;
+}
+    
+
+.main p{
+    
+    color: #5f6368;
+    font: 400 20px/28px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin: 0 20px;
+    text-align: center;
+}
+.main button{
+    color: white;
+    background-color: #1a73e8;
+    height: 48px;
+    width: 152px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: none;
+    border-radius: 30px;
+    border: 0.5px solid  #5f6368;;
+    margin-left: 685px;
+    margin-top: 37px;
+}
+.main2 p{
+    color: black;
+    
+}
+
+#slider {
+    position: absolute;
+    top: -16px;
+    left: -42px;
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+    width: 1296px;
+    height: 630.05px;
+	float: left;
+}
+.temp{
+    top: -106px;
+    left: 300px;
+    width: 1130px;
+    height:  629px;
+    overflow: hidden;
+    position: relative;
+    margin-left: -85px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main2 p{
+    color: #5f6368 ;
+    font-size: 13px;
+    letter-spacing: .4px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #5f6368;
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 31px;
+    margin-left: 225px;
+     font-weight: bold;
+    font: 400 12px/250px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+} 
+.info{
+    width: 100%;
+}
+.about p{
+    font: 500 14px/24px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin-bottom: 16px;
+    color: #5f6368;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 28px;
+    font-size: 18px;
+    line-height: 31px;
+padding-bottom: 10px;
+
+}
+.about h3{
+    color: #202124;
+    font: 400 48px/56px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    margin-right: 5px;
+    margin-bottom: 16px;
+}
+.main3{
+    
+    margin-left: 110px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.senior{
+    font: 400 11px/16px "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    letter-spacing: .5px;
+    padding-top: 6px;
+    font-size: 10px;
+}
+.main3{
+    display: inline-block;
+}
+.image-1{
+    width: 30px;
+}
